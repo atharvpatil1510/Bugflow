@@ -1,0 +1,306 @@
+﻿id,project,title,description,severity,status,created_at,assigned_to_user_id
+1,ap,button dont click,ok,normal,Open,2026-10-12 22:23:59.975456,3
+2,new,new,ga,normal,Open,2026-10-12 22:39:32.518230,
+3,atharv patil,can't able to login,i am unable to login the page on it.,major,Open,2026-10-12 23:01:38.168344,
+4,Online Shopping Application,The login button does not respond,The login button does not respond when the user enters valid credentials and clicks Sign In.,minor,In Progress,2026-10-15 10:46:32.950623,3
+5,Online Shopping Application,Checkout Failure,"The checkout page displays an error after the user clicks Place Order, preventing the order from being completed.",major,Resolved,2026-10-15 10:48:21.669801,10
+6,Authentication,Login button not responding,Clicking Login with valid credentials does nothing.,High,Open,2026-10-15 11:26:52.435751,
+7,Authentication,Incorrect password accepted,Login validation accepts an incorrect password.,Critical,Open,2026-10-15 11:26:52.435751,
+8,Authentication,Password reset email missing,Password reset email is not received.,Medium,In Progress,2026-10-15 11:26:52.435751,
+9,Authentication,Session expires too early,User is logged out after a short period.,Medium,Open,2026-10-15 11:26:52.435751,
+10,Authentication,Logout button not working,Clicking Logout does not end the session.,High,Resolved,2026-10-15 11:26:52.435751,
+11,Authentication,Login page crashes,Login page fails to load for some users.,Critical,Open,2026-10-15 11:26:52.435751,
+12,Authentication,Email validation missing,Invalid email formats are accepted during login.,Low,Open,2026-10-15 11:26:52.435751,
+13,Authentication,Remember me not working,Login session is not remembered after reopening the browser.,Low,In Progress,2026-10-15 11:26:52.435751,
+14,Authentication,Account lockout not triggered,Repeated failed login attempts do not lock the account.,High,Open,2026-10-15 11:26:52.435751,
+15,Authentication,Password field shows text,Password characters are visible instead of masked.,Medium,Resolved,2026-10-15 11:26:52.435751,
+16,Shopping,Checkout button not working,Clicking Place Order produces no response.,Critical,Open,2026-10-15 11:26:52.435751,
+17,Shopping,Cart total calculated incorrectly,Cart total does not include all item prices.,High,In Progress,2026-10-15 11:26:52.435751,
+18,Shopping,Duplicate order created,Submitting an order twice creates duplicate records.,Critical,Open,2026-10-15 11:26:52.435751,
+19,Shopping,Product image missing,Some products display broken images.,Low,Open,2026-10-15 11:26:52.435751,
+20,Shopping,Quantity update fails,Changing product quantity does not update the cart.,Medium,Open,2026-10-15 11:26:52.435751,
+21,Shopping,Coupon code rejected,Valid discount codes are rejected at checkout.,Medium,Resolved,2026-10-15 11:26:52.435751,
+22,Shopping,Out-of-stock item purchasable,Users can order products with zero stock.,Critical,Open,2026-10-15 11:26:52.435751,
+23,Shopping,Shipping fee incorrect,Shipping charges are calculated incorrectly.,High,In Progress,2026-10-15 11:26:52.435751,
+24,Shopping,Order confirmation missing,Successful orders do not show confirmation.,Medium,Open,2026-10-15 11:26:52.435751,
+25,Shopping,Cart becomes empty,Cart items disappear after refreshing the page.,High,Open,2026-10-15 11:26:52.435751,
+26,Performance,Dashboard loads slowly,Dashboard takes over 15 seconds to load many records.,High,Open,2026-10-15 11:26:52.435751,
+27,Performance,Search results delayed,Search results take too long to appear.,Medium,In Progress,2026-10-15 11:26:52.435751,
+28,Performance,Memory usage increases,Memory consumption grows during long sessions.,High,Open,2026-10-15 11:26:52.435751,
+29,Performance,Large report export hangs,Exporting thousands of records freezes the page.,High,Open,2026-10-15 11:26:52.435751,
+30,Performance,API response is slow,Bug listing API responds slowly under load.,Medium,Open,2026-10-15 11:26:52.435751,
+31,Performance,Repeated requests overload server,Repeated requests cause server response delays.,Critical,In Progress,2026-10-15 11:26:52.435751,
+32,Performance,Pagination loads slowly,Moving to the next page takes several seconds.,Low,Resolved,2026-10-15 11:26:52.435751,
+33,Performance,Dashboard chart freezes,Charts become unresponsive with large datasets.,Medium,Open,2026-10-15 11:26:52.435751,
+34,Performance,Application startup delayed,Application takes too long to become available.,Medium,Open,2026-10-15 11:26:52.435751,
+35,Performance,Database query timeout,A report query times out for large result sets.,Critical,Open,2026-10-15 11:26:52.435751,
+36,User Interface,Navigation overlaps table,Mobile navigation overlaps the issues table.,Medium,Open,2026-10-15 11:26:52.435751,
+37,User Interface,Submit button has wrong color,Submit button displays an unexpected color.,Low,Resolved,2026-10-15 11:26:52.435751,
+38,User Interface,Text clipped on mobile,Long issue titles are cut off on small screens.,Low,Open,2026-10-15 11:26:52.435751,
+39,User Interface,Modal cannot be closed,Close icon does not dismiss the dialog.,Medium,Open,2026-10-15 11:26:52.435751,
+40,User Interface,Dropdown options invisible,Dropdown menu text is not readable.,Medium,In Progress,2026-10-15 11:26:52.435751,
+41,User Interface,Dark mode contrast issue,Text contrast is too low in dark mode.,Low,Open,2026-10-15 11:26:52.435751,
+42,User Interface,Form labels missing,Some input fields do not show labels.,Low,Open,2026-10-15 11:26:52.435751,
+43,User Interface,Page layout breaks on tablet,Dashboard layout is misaligned on tablet screens.,Medium,Open,2026-10-15 11:26:52.435751,
+44,User Interface,Error message not displayed,Invalid form submission gives no visible feedback.,Medium,Resolved,2026-10-15 11:26:52.435751,
+45,User Interface,Loading indicator never disappears,Spinner remains visible after data loads.,Medium,Open,2026-10-15 11:26:52.435751,
+46,API,Bug creation API returns 500,Submitting valid bug data causes an internal server error.,High,Open,2026-10-15 11:26:52.435751,
+47,API,Missing required field accepted,API creates a report without a title.,High,In Progress,2026-10-15 11:26:52.435751,
+48,API,Invalid status accepted,API accepts a status that is not supported.,Medium,Open,2026-10-15 11:26:52.435751,
+49,API,Incorrect response format,API response does not match the documented JSON format.,Low,Open,2026-10-15 11:26:52.435751,
+50,API,Unauthorized request succeeds,Protected endpoint responds without authentication.,Critical,Open,2026-10-15 11:26:52.435751,
+51,API,Duplicate issue key allowed,API permits duplicate issue identifiers.,High,Open,2026-10-15 11:26:52.435751,
+52,API,Empty description causes error,Submitting an empty description causes an exception.,Medium,Resolved,2026-10-15 11:26:52.435751,
+53,API,Invalid ID crashes endpoint,Requesting a nonnumeric ID causes an error.,Medium,Open,2026-10-15 11:26:52.435751,
+54,API,API pagination ignores limit,API returns more records than the requested limit.,Low,In Progress,2026-10-15 11:26:52.435751,
+55,API,API error details missing,Failed requests do not return a useful error message.,Low,Open,2026-10-15 11:26:52.435751,
+56,Database,Bug report not saved,Submitted bug report is missing from the database.,Critical,Open,2026-10-15 11:26:52.435751,
+57,Database,Status update not persisted,Updated status is not saved after refreshing.,High,Open,2026-10-15 11:26:52.435751,
+58,Database,Database connection failure,Application cannot connect to PostgreSQL.,Critical,In Progress,2026-10-15 11:26:52.435751,
+59,Database,CSV export has duplicate rows,Exported CSV contains repeated records.,Medium,Open,2026-10-15 11:26:52.435751,
+60,Database,Developer assignment missing,Assigned developer is not stored correctly.,High,Open,2026-10-15 11:26:52.435751,
+61,Database,Null project causes error,Reports without a project trigger an exception.,Medium,Resolved,2026-10-15 11:26:52.435751,
+62,Database,Timestamp displayed incorrectly,Report creation time uses the wrong timezone.,Low,Open,2026-10-15 11:26:52.435751,
+63,Database,Transaction rollback fails,Partial changes remain after a failed operation.,Critical,Open,2026-10-15 11:26:52.435751,
+64,Database,Report count is incorrect,Dashboard count differs from the database count.,Medium,In Progress,2026-10-15 11:26:52.435751,
+65,Database,Long description truncated,Long bug descriptions are not fully saved.,Medium,Open,2026-10-15 11:26:52.435751,
+66,Bugzilla,Clean up user selection SQL,"Source Bug ID: 322082
+
+Clean up user selection SQL",normal,Resolved,2026-10-15 20:28:36.808745,
+67,Bugzilla,Typo in error message,"Source Bug ID: 322412
+
+Typo in error message",trivial,Resolved,2026-10-15 20:28:36.808745,
+68,Bugzilla,If logged out $user->can_bless gives: Not an ARRAY reference at Bugzilla/User.pm line 643,"Source Bug ID: 322315
+
+If logged out $user->can_bless gives: Not an ARRAY reference at Bugzilla/User.pm line 643",normal,Resolved,2026-10-15 20:28:36.808745,
+69,Bugzilla,cookies are incorrectly detainted when logging out,"Source Bug ID: 322244
+
+cookies are incorrectly detainted when logging out",trivial,Resolved,2026-10-15 20:28:36.808745,
+70,Bugzilla,DERIVE_GROUPS_TABLES_ALREADY_LOCKED is ignored on 2.20+ when creating a new user object,"Source Bug ID: 322212
+
+DERIVE_GROUPS_TABLES_ALREADY_LOCKED is ignored on 2.20+ when creating a new user object",critical,Resolved,2026-10-15 20:28:36.808745,
+71,Bugzilla,Logging in with 'Remember my Login' deselected gives: Use of uninitialized value in string eq at Bugzilla/Auth/Login/WWW/CGI.pm line 83,"Source Bug ID: 322620
+
+Logging in with 'Remember my Login' deselected gives: Use of uninitialized value in string eq at Bugzilla/Auth/Login/WWW/CGI.pm line 83",normal,Resolved,2026-10-15 20:28:36.808745,
+72,Bugzilla,cannot export local attachments,"Source Bug ID: 322712
+
+cannot export local attachments",normal,Resolved,2026-10-15 20:28:36.808745,
+73,Bugzilla,PostgreSQL seems to incorrectly detect control characters... or clean_text() incorrectly fixes them,"Source Bug ID: 322771
+
+PostgreSQL seems to incorrectly detect control characters... or clean_text() incorrectly fixes them",normal,Resolved,2026-10-15 20:28:36.808745,
+74,Bugzilla,[PostgreSQL] sanitycheck.cgi?createmissinggroupcontrolmapentries=1 fails,"Source Bug ID: 323575
+
+[PostgreSQL] sanitycheck.cgi?createmissinggroupcontrolmapentries=1 fails",normal,Resolved,2026-10-15 20:28:36.808745,
+75,Bugzilla,trivial UI changes for 2.20 (Selenium compat),"Source Bug ID: 323967
+
+trivial UI changes for 2.20 (Selenium compat)",trivial,Resolved,2026-10-15 20:28:36.808745,
+76,Bugzilla,"""Invalid Column Name"" when exportign bug list to CVS","Source Bug ID: 323769
+
+""Invalid Column Name"" when exportign bug list to CVS",normal,Resolved,2026-10-15 20:28:36.808745,
+77,Bugzilla,deleting a group incorrectly checks for user group membership (miss group inheritance),"Source Bug ID: 323955
+
+deleting a group incorrectly checks for user group membership (miss group inheritance)",normal,Resolved,2026-10-15 20:28:36.808745,
+78,Bugzilla,deleting a group doesn't remove entries in group_group_map correctly,"Source Bug ID: 324248
+
+deleting a group doesn't remove entries in group_group_map correctly",normal,Resolved,2026-10-15 20:28:36.808745,
+79,Bugzilla,admin/classifications/select.html.tmpl has a link pointing to itself,"Source Bug ID: 323392
+
+admin/classifications/select.html.tmpl has a link pointing to itself",trivial,Resolved,2026-10-15 20:28:36.808745,
+80,Bugzilla,New charts feature crashes,"Source Bug ID: 323721
+
+New charts feature crashes",major,Resolved,2026-10-15 20:28:36.808745,
+81,Bugzilla,"""Mail Transport Config"" is a confusing name for a params section","Source Bug ID: 323563
+
+""Mail Transport Config"" is a confusing name for a params section",normal,Resolved,2026-10-15 20:28:36.808745,
+82,Bugzilla,Remove whitespaces from the 'Long Format' button,"Source Bug ID: 325037
+
+Remove whitespaces from the 'Long Format' button",trivial,Resolved,2026-10-15 20:28:36.808745,
+83,Bugzilla,"When an event is scheduled at midnight of a given day of the month, one email is sent *each* hour of that day","Source Bug ID: 325361
+
+When an event is scheduled at midnight of a given day of the month, one email is sent *each* hour of that day",normal,Resolved,2026-10-15 20:28:36.808745,
+84,Bugzilla,"In editparams.cgi, radio button and checkbox descriptions should be enclosed in <label></label> tags","Source Bug ID: 325448
+
+In editparams.cgi, radio button and checkbox descriptions should be enclosed in <label></label> tags",trivial,Resolved,2026-10-15 20:28:36.808745,
+85,Bugzilla,[PostgreSQL] Changing the status of a bug from UNCO to ASSIGNED sets everconfirmed to 1 but leave the status as UNCONFIRMED,"Source Bug ID: 325048
+
+[PostgreSQL] Changing the status of a bug from UNCO to ASSIGNED sets everconfirmed to 1 but leave the status as UNCONFIRMED",normal,Resolved,2026-10-15 20:28:36.808745,
+86,Bugzilla,"When 'shutdownhtml' is set, accessing foo.cgi?format=bar displays plain text instead of html","Source Bug ID: 324346
+
+When 'shutdownhtml' is set, accessing foo.cgi?format=bar displays plain text instead of html",normal,Resolved,2026-10-15 20:28:36.808745,
+87,Bugzilla,"Wrong colspan for ""summarize time"" link below time tracking bar on show_bug.cgi","Source Bug ID: 326803
+
+Wrong colspan for ""summarize time"" link below time tracking bar on show_bug.cgi",trivial,Resolved,2026-10-15 20:28:36.808745,
+88,Bugzilla,Release Notes for Bugzilla 2.22rc1,"Source Bug ID: 322960
+
+Release Notes for Bugzilla 2.22rc1",blocker,Resolved,2026-10-15 20:28:36.808745,
+89,Bugzilla,The login form on the Bugzilla home page may redirect your login and password to another site,"Source Bug ID: 325079
+
+The login form on the Bugzilla home page may redirect your login and password to another site",major,Resolved,2026-10-15 20:28:36.808745,
+90,Bugzilla,"Remove duplicate ""the the"" from using.xml","Source Bug ID: 328031
+
+Remove duplicate ""the the"" from using.xml",normal,Resolved,2026-10-15 20:28:36.808745,
+91,Bugzilla,"Setting ""loginnetmask"" to 0 does not disable IP checking","Source Bug ID: 323627
+
+Setting ""loginnetmask"" to 0 does not disable IP checking",normal,Resolved,2026-10-15 20:28:36.808745,
+92,Bugzilla,Missing space in attachment size error,"Source Bug ID: 327624
+
+Missing space in attachment size error",normal,Resolved,2026-10-15 20:28:36.808745,
+93,Bugzilla,Email preferences are not set correctly when the user account is created by Env.pm,"Source Bug ID: 327355
+
+Email preferences are not set correctly when the user account is created by Env.pm",normal,Resolved,2026-10-15 20:28:36.808745,
+94,Bugzilla,Env.pm plugin doesn't create new user accounts correctly in Postgres,"Source Bug ID: 327289
+
+Env.pm plugin doesn't create new user accounts correctly in Postgres",normal,Resolved,2026-10-15 20:28:36.808745,
+95,Bugzilla,Templates should not check for flag.setter; it is always known,"Source Bug ID: 326060
+
+Templates should not check for flag.setter; it is always known",trivial,Resolved,2026-10-15 20:28:36.808745,
+96,Bugzilla,Upgrading to 2.23 on PostgreSQL generates an error,"Source Bug ID: 328063
+
+Upgrading to 2.23 on PostgreSQL generates an error",normal,Resolved,2026-10-15 20:28:36.808745,
+97,Bugzilla,editusers.cgi does not work because it has a Byte Order Mark at the beginning,"Source Bug ID: 328166
+
+editusers.cgi does not work because it has a Byte Order Mark at the beginning",critical,Resolved,2026-10-15 20:28:36.808745,
+98,Bugzilla,Unable to login on a fresh Bugzilla install,"Source Bug ID: 328108
+
+Unable to login on a fresh Bugzilla install",blocker,Resolved,2026-10-15 20:28:36.808745,
+99,Bugzilla,Software error when editing the 'docs_urlbase' parameter,"Source Bug ID: 328239
+
+Software error when editing the 'docs_urlbase' parameter",major,Resolved,2026-10-15 20:28:36.808745,
+100,Bugzilla,https://bugzilla.org/ results in the Syndicomm site,"Source Bug ID: 328244
+
+https://bugzilla.org/ results in the Syndicomm site",normal,Resolved,2026-10-15 20:28:36.808745,
+101,Bugzilla,Fix spelling: 'visitng' -> 'visiting',"Source Bug ID: 328379
+
+Fix spelling: 'visitng' -> 'visiting'",minor,Resolved,2026-10-15 20:28:36.808745,
+102,Bugzilla,"dependency tree images missing from #251656 ""","Source Bug ID: 328385
+
+dependency tree images missing from #251656 """,minor,Resolved,2026-10-15 20:28:36.808745,
+103,Bugzilla,whining fails on mysql 4.0 due to date addition,"Source Bug ID: 327348
+
+whining fails on mysql 4.0 due to date addition",normal,Resolved,2026-10-15 20:28:36.808745,
+104,Bugzilla,Cannot update a product if 'usetargetmilestone' is off (and the default milestone has been previously changed),"Source Bug ID: 328203
+
+Cannot update a product if 'usetargetmilestone' is off (and the default milestone has been previously changed)",normal,Resolved,2026-10-15 20:28:36.808745,
+105,Bugzilla,Classifications are currently undocumented,"Source Bug ID: 328330
+
+Classifications are currently undocumented",normal,Resolved,2026-10-15 20:28:36.808745,
+106,Bugzilla,Group.html should be groups.html in documentation links,"Source Bug ID: 329042
+
+Group.html should be groups.html in documentation links",normal,Resolved,2026-10-15 20:28:36.808745,
+107,Bugzilla,Additional Comments field columns are constant at 80 cols,"Source Bug ID: 328089
+
+Additional Comments field columns are constant at 80 cols",trivial,Resolved,2026-10-15 20:28:36.808745,
+108,Bugzilla,No 'settings' template case in generic auth code,"Source Bug ID: 329163
+
+No 'settings' template case in generic auth code",normal,Resolved,2026-10-15 20:28:36.808745,
+109,Bugzilla,Bugzilla fails when there are no keywords,"Source Bug ID: 329177
+
+Bugzilla fails when there are no keywords",critical,Resolved,2026-10-15 20:28:36.808745,
+110,Bugzilla,008filter fails if . is not in PATH,"Source Bug ID: 329295
+
+008filter fails if . is not in PATH",normal,Resolved,2026-10-15 20:28:36.808745,
+111,Bugzilla,sidebar.xul.tmpl has a bad header,"Source Bug ID: 329289
+
+sidebar.xul.tmpl has a bad header",normal,Resolved,2026-10-15 20:28:36.808745,
+112,Bugzilla,SQL crash in request.cgi when the status field is used,"Source Bug ID: 329783
+
+SQL crash in request.cgi when the status field is used",normal,Resolved,2026-10-15 20:28:36.808745,
+113,Bugzilla,"Boolean charts do not find ""bugs which are NOT in some given group"" correctly","Source Bug ID: 323905
+
+Boolean charts do not find ""bugs which are NOT in some given group"" correctly",normal,Resolved,2026-10-15 20:28:36.808745,
+114,Bugzilla,Some browsers might not pick up comment upon new attachment,"Source Bug ID: 329323
+
+Some browsers might not pick up comment upon new attachment",normal,Resolved,2026-10-15 20:28:36.808745,
+115,Bugzilla,"When a group cannot be deleted because it is in used, ThrowUserError() should be called","Source Bug ID: 323912
+
+When a group cannot be deleted because it is in used, ThrowUserError() should be called",minor,Resolved,2026-10-15 20:28:36.808745,
+116,Bugzilla,User::match_field() may redirect you outside your Bugzilla installation,"Source Bug ID: 329334
+
+User::match_field() may redirect you outside your Bugzilla installation",normal,Resolved,2026-10-15 20:28:36.808745,
+117,Bugzilla,Crash when changing the status of a bug which has dependencies,"Source Bug ID: 330186
+
+Crash when changing the status of a bug which has dependencies",blocker,Resolved,2026-10-15 20:28:36.808745,
+118,Bugzilla,Whine mails lack the trailing MIME boundary,"Source Bug ID: 326122
+
+Whine mails lack the trailing MIME boundary",normal,Resolved,2026-10-15 20:28:36.808745,
+119,Bugzilla,"""its"" is wrong in comment","Source Bug ID: 330577
+
+""its"" is wrong in comment",normal,Resolved,2026-10-15 20:28:36.808745,
+120,Bugzilla,Remove unused IsInClassification() function from globals.pl,"Source Bug ID: 330519
+
+Remove unused IsInClassification() function from globals.pl",trivial,Resolved,2026-10-15 20:28:36.808745,
+121,Bugzilla,missing newline in Search.pm,"Source Bug ID: 330588
+
+missing newline in Search.pm",trivial,Resolved,2026-10-15 20:28:36.808745,
+122,Bugzilla,alias_is_numeric uses 'another' which to me implies a real one was given/accepted,"Source Bug ID: 331004
+
+alias_is_numeric uses 'another' which to me implies a real one was given/accepted",normal,Resolved,2026-10-15 20:28:36.808745,
+123,Bugzilla,component_not_valid could be improved,"Source Bug ID: 330996
+
+component_not_valid could be improved",normal,Resolved,2026-10-15 20:28:36.808745,
+124,Bugzilla,"auth_failure uses ""put people in or out""","Source Bug ID: 331003
+
+auth_failure uses ""put people in or out""",normal,Resolved,2026-10-15 20:28:36.808745,
+125,Bugzilla,"Fix sudo_in_progress to not say ""an sudo""","Source Bug ID: 330837
+
+Fix sudo_in_progress to not say ""an sudo""",trivial,Resolved,2026-10-15 20:28:36.808745,
+126,Bugzilla,login_required_for_pronoun doesn't make sense,"Source Bug ID: 330985
+
+login_required_for_pronoun doesn't make sense",trivial,Resolved,2026-10-15 20:28:36.808745,
+127,Bugzilla,"Incorrect English in ""You can't make [% terms.abug %] blocked or dependent on itself.""","Source Bug ID: 329390
+
+Incorrect English in ""You can't make [% terms.abug %] blocked or dependent on itself.""",normal,Resolved,2026-10-15 20:28:36.808745,
+128,Bugzilla,Add 'extensions' to .cvsignore,"Source Bug ID: 330944
+
+Add 'extensions' to .cvsignore",trivial,Resolved,2026-10-15 20:28:36.808745,
+129,Bugzilla,Incorrect output when updating components,"Source Bug ID: 332142
+
+Incorrect output when updating components",normal,Resolved,2026-10-15 20:28:36.808745,
+130,Bugzilla,"""Cancelled Because:"" needs a space after "":""","Source Bug ID: 330439
+
+""Cancelled Because:"" needs a space after "":""",normal,Resolved,2026-10-15 20:28:36.808745,
+131,Bugzilla,Bad alignment of ) for Alias,"Source Bug ID: 330583
+
+Bad alignment of ) for Alias",trivial,Resolved,2026-10-15 20:28:36.808745,
+132,Bugzilla,twice SQLQuote in Bugzilla::flag::modify,"Source Bug ID: 331343
+
+twice SQLQuote in Bugzilla::flag::modify",normal,Resolved,2026-10-15 20:28:36.808745,
+133,Bugzilla,Missing SET in admin/table.html.tmpl,"Source Bug ID: 332891
+
+Missing SET in admin/table.html.tmpl",normal,Resolved,2026-10-15 20:28:36.808745,
+134,Bugzilla,Wrong parameters passed to sudo sessions when trying to bypass validation checks,"Source Bug ID: 332906
+
+Wrong parameters passed to sudo sessions when trying to bypass validation checks",normal,Resolved,2026-10-15 20:28:36.808745,
+135,Bugzilla,Style the group table as all other tables in Bugzilla,"Source Bug ID: 323525
+
+Style the group table as all other tables in Bugzilla",normal,Resolved,2026-10-15 20:28:36.808745,
+136,Bugzilla,Cannot post a bug with keywords in it,"Source Bug ID: 333195
+
+Cannot post a bug with keywords in it",critical,Resolved,2026-10-15 20:28:36.808745,
+137,Bugzilla,Steps to Reproduce default content has an extra linebreak,"Source Bug ID: 332995
+
+Steps to Reproduce default content has an extra linebreak",trivial,Resolved,2026-10-15 20:28:36.808745,
+138,Bugzilla,Already marked as duplicate - This bug has already been marked as a duplicate of bug 328615.,"Source Bug ID: 332705
+
+Already marked as duplicate - This bug has already been marked as a duplicate of bug 328615.",normal,Resolved,2026-10-15 20:28:36.808745,
+139,Bugzilla,Uninitialized value when entering a new bug with no alias given,"Source Bug ID: 333031
+
+Uninitialized value when entering a new bug with no alias given",minor,Resolved,2026-10-15 20:28:36.808745,
+140,Bugzilla,contrariety example in search-help,"Source Bug ID: 333867
+
+contrariety example in search-help",trivial,Resolved,2026-10-15 20:28:36.808745,
+141,Bugzilla,Bugzilla::DB::Pg can't alter a column to be SERIAL,"Source Bug ID: 329537
+
+Bugzilla::DB::Pg can't alter a column to be SERIAL",normal,Resolved,2026-10-15 20:28:36.808745,
+142,Bugzilla,extra </a> in sudo_password_required message,"Source Bug ID: 333836
+
+extra </a> in sudo_password_required message",trivial,Resolved,2026-10-15 20:28:36.808745,
+143,Bugzilla,process_bug.cgi is broken when changing several bugs at once,"Source Bug ID: 334344
+
+process_bug.cgi is broken when changing several bugs at once",blocker,Resolved,2026-10-15 20:28:36.808745,
+144,Bugzilla,012throwables.t broken on Windows,"Source Bug ID: 333998
+
+012throwables.t broken on Windows",normal,Resolved,2026-10-15 20:28:36.808745,
+145,Bugzilla,importxml.pl crashes when importing bugs having attachments from versions 2.20 or older,"Source Bug ID: 334617
+
+importxml.pl crashes when importing bugs having attachments from versions 2.20 or older",major,Resolved,2026-10-15 20:28:36.808745,
